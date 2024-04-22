@@ -1,6 +1,6 @@
 #include <cstdlib>
 #include <iostream>
-#include <ctime> // Include for time() function
+#include <ctime>
 
 using namespace std;
 
@@ -8,7 +8,7 @@ int main() {
     int x = time(0);
     srand(x);
     int ram = 0 + rand() % 11;
-    cout << ram << endl;
+        cout << ram << endl;
     
     if (ram < 1) {
         cout << "Your subscription has expired" << endl;
