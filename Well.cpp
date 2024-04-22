@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main(){
-    std::cout <<("Well lets see if it runs");
+    std::cout <<("Okay I see it wants to  auto update, I guess I should try it out");
     return 0;
 }
