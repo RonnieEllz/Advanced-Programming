@@ -49,7 +49,7 @@
                     cout << "Invalid choice. Please enter a valid choice." << endl;
             }
     
-            cout << "Do you want to calculate the area of another shape? or Quit program. ";
+            cout << "Do you want to calculate the area of another shape or press 4 to Quit. ";
             cin >> choice;
         } while (choice == 4 || choice == 4);
     
