@@ -30,14 +30,14 @@ int countWords(const string& str) {
     return count;
 }
 
-// Function to reverse a string
+
 string reverseString(const string& str) {
     string reversed = str;
     reverse(reversed.begin(), reversed.end());
     return reversed;
 }
 
-// Function to capitalize the second letter of each word in a string
+
 string capitalizeSecondLetter(const string& str) {
     string result = str;
     for (size_t i = 0; i < result.length(); i++) {
