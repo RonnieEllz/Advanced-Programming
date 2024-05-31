@@ -1,8 +1,17 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"Hello World\n";
-    cout<<"I amlearning C++";
+    int size;
+    cin>>size;
+    int* myArray = new int[size];
+   
+   for(int i = 0; i < size; i++){
+        cout<<"Array[]"<< i <<"]";
+        cin>>myArray[i];
+   }
+    for(int i = 0; i < size; i++){
+        cout<<myArray[i]<<"  ";
+    }
 
     return 0;
 }
